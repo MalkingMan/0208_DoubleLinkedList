@@ -172,4 +172,10 @@ void retraverse()
         Node *currentNode = START;
         while (currentNode->next != NULL)
             currentNode = currentNode->next;
-        
+        while (currentNode != NULL)
+        {
+            cout << currentNode->noths << " " << currentNode->name << endl;
+            currentNode = currentNode->prev;   
+        }
+    }
+}
