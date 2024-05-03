@@ -244,12 +244,10 @@ int main()
                 break;
                 
             }
-        }
-     
-       {
-        std::cerr << e.what() << '\n';
        }
-       
+        catch(exception %e)
+       {
+            cout << "Check for the values entered" << endl;
+       }
     }
-    
 }
