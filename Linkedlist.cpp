@@ -179,3 +179,13 @@ void retraverse()
         }
     }
 }
+
+void searchData()
+{
+    if (listempty() == true)
+    {
+        cout << "\nList is empty" << endl;
+    }
+    
+
+}
